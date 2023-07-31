@@ -412,7 +412,7 @@ header a {
       padding: 0;
     }
      .noticias .card{
-      margin-left: 319px;
+      margin: 0 auto;
     } 
   }
   @media (width: 912px){
