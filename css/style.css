@@ -415,6 +415,7 @@ header a {
       margin: 0 auto;
     } 
   }
+  @media (width:1920px){.noticias .card{margin: 0 auto;}}
   @media (width: 912px){
     .footer-form{
       margin-top: 300px;
