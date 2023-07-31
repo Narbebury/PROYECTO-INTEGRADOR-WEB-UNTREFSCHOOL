@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UntrefSchool</title>
+    <meta name="UntrefSchool" author="Agustin Narbebury">
+    <link rel="shortcut icon" href="src/icono.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/954177dd16.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+        
+    
+  <header>
+		<div class="logo">
+		    <a href="index.html">UntrefSchool</a>
+		</div>
+		<nav class="nav-bar">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="index.html#1">¿Quienes somos?</a></li>
+        <li><a href="index.html#2">¿Por qué elegirnos?</a></li>
+        <li><a href="index.html#4">Últimas noticias</a></li>
+        <li><a href="form.html">Consultas</a></li>
+			</ul>
+		</nav>
+
+			<div class="hamburger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+		</div>
+	</header>
+
+    <h1  class="consulta">Consulta</h1>
+    <div class="container2-fluid col-lg-12 col-md-12 col-xs-12 col-sm-12 col-xl-12 contacto">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-xl-12">
+          <form class="formularioContactar" action="https://formsubmit.co/agusn11@hotmail.com" method="POST">
+                <!--Nombre-->
+                <label for="Nom"><h5>Nombre</h5></label>
+                <input id="Nom" type="text" name="Nombre" class="form-control" placeholder="Nombre" maxlength="40" required><br>
+                <!--Apellido-->
+                <label for="Ape"><h5>Apellido</h5></label>
+                <input id="Ape" type="text" name="Apellido" class="form-control" placeholder="Apellido" maxlength="40" required><br>
+                <!--E-mail-->
+                <label for="mail"><h5>E-mail</h5></label>
+                <input id="mail" type="text" name="Email" class="form-control" placeholder="example@mail.com" maxlength="50" required><br>
+                <!--Asunto-->
+                <label for="Asunto"><h5>Asunto</h5></label>
+                <input id="Asunto" type="text" name="Asunto" class="form-control" placeholder="Asunto" maxlength="30" required><br>
+                <!--Consulta-->
+                <div class="mb-3">
+                  <label for="validationTextarea" class="form-label"></label>
+                  <h5>Consulta</h5>
+                  <textarea class="form-control is-invalid" id="validationTextarea" name="Consulta" placeholder="Escribir..."required></textarea>
+                  <div class="invalid-feedback">
+                    Escriba un mensaje.
+                  </div>
+                  <div class="mb-3 form-button">
+                    <button class="btn btn-primary" type="submit" name="EnviarFormulario">Enviar Formulario</button>
+                  </div>
+                </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-form">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-xl-4 redes">
+                <h3>Redes sociales</h3>
+                <a href=""><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>Facebook</a><br>
+                <a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>Twitter</a><br>
+                <a href=""><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>Whatsapp</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-xl-4">
+                <h3>Instituto</h3>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.918276482522!2d-58.3982251!3d-34.598356!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca943b03c3d7%3A0x4aaa7acded4ae7d3!2sFacultad%20de%20Medicina%20de%20la%20Universidad%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1689049724172!5m2!1ses-419!2sar" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-xl-4">
+                <h3>Contacto</h3>
+                <h5>email@instituto.com</h5>
+                <h5>tel: 112223333</h5>
+                <h5>Wapp: 221123333</h5>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
